@@ -4,12 +4,12 @@ int main()
 {
     float height,weight,BMI;
     cout<<"HEIGHT in meter and WEIGHT  in kilograms"<<endl;
-    cout<<"Enter your height:";
+    cout<<"please enter your height:";
     cin>>height;
-    cout<<"Enter your weight:";
+    cout<<"please enter your weight:";
     cin>>weight;
     BMI=(weight/(height*height));
-    cout<<BMI;
+    cout<<"BMI="<<BMI;
     
     return 0;
 }
