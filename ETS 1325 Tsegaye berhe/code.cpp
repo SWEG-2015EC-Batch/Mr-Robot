@@ -1,3 +1,4 @@
+//BMI calculater
 #include<iostream>
 using namespace std;
 int main() {
@@ -12,3 +13,4 @@ Bmi= weight/ (height*height);
 cout << "BMI"<< Bmi;
 return 0;
 }
+// mile calculater
