@@ -48,4 +48,4 @@ step 3:calculate how long it will take to send the file
 if size < 0, print error and exit
 time = file size / 960
 print time
-end
+step 5:stop
