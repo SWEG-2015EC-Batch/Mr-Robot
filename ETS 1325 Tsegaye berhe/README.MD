@@ -1,5 +1,5 @@
 problem  analysis for BMI 
-input height and weight 
+input height and weight
 output body mass index (bmi) = weight/(height*height)
 process 
 variable declaration 
@@ -8,13 +8,14 @@ computing bmi
 printing bmi
 
 problem analysis for mile 
-input amount of gallons
-output miles =30*gallons 
+input tank capacity in gallons 
+     miles per gallons  
+output driving distance = tank Capacity ×mile per gallon 
 process 
 variable declaration 
 assigning variable 
-computing miles
-printing miles 
+computing driving distance
+printing driving distance 
 
 problem analysis for exponent problem 
 input x and y
