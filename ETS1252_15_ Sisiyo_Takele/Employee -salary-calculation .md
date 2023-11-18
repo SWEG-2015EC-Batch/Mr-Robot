@@ -71,3 +71,28 @@ DISPLAY "Net Salary: netSalary"
 DISPLAY "Bonus Payment: bonusPayment"
 
 END
+# Flow chart
+... mermaid
+Start
+|
+v
+Input a character from the keyboard
+|
+v
+Check if the character is uppercase using the isupper() function
+   |   |
+   |   v   Yes
+   |   v   Convert the character to lowercase using the tolower() function
+   |   v   Display the lowercase character
+   |   v   No
+   |   v   Check if the character is lowercase using the islower() function
+   |       |
+   |       v   Yes
+   |       v   Convert the character to uppercase using the toupper() function
+   |       v   Display the uppercase character
+   |       v   No
+   |       v   Display an error message indicating the input is not a letter
+|
+v
+End
+...
