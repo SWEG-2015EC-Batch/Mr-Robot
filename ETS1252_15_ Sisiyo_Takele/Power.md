@@ -45,3 +45,12 @@ ENDFOR
 OUTPUT "Result of x^y is: result"
 
 END
+# Flow chart
+``` mermaid
+graph TD;
+A([Start]) --> B[/"Enter the value of x,
+Enter the value of y"/];
+B--> D["result = pow(x, y)"];
+D--> E["'Display' x, 'raised to the power of ', y, 'is'  result"];
+E--> F([End]);
+```
