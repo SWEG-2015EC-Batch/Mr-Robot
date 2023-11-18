@@ -1,74 +1,57 @@
-Skip to content
-SWEG-2015EC-Batch
-/
-Felix
+A.) Problem Analysis:
 
-Code
-Issues
-Pull requests
-Discussions
-Actions
-Projects
-Security
-Insights
-BreadcrumbsFelix/ETS1071_15_NATNAEL_ASFAW
-/Fuel_Efficiency_Calculator.md
-Go to file
-t
-Latest commit
-Natthy2023
-Natthy2023
-Update Fuel_Efficiency_Calculator.md
-a57830d
- · 
-3 hours ago
-History
-File metadata and controls
+The problem requires designing an algorithm and a program to calculate an employee's gross salary, net salary, and bonus payment based on the provided information: employee name, weekly working hours, bonus rate per hour, and base salary. Additionally, the problem hints at considering a pension rate of -5% and a tax rate of 15%. Here's the analysis:
 
-Preview
+Input:
 
-Code
+Employee name: String input.
+Weekly working hours: Numeric input (hours worked per week).
+Bonus rate per hour: Numeric input (additional pay rate per hour worked).
+Base salary: Numeric input (fixed salary amount).
+Calculations:
 
-Blame
-42 lines (26 loc) · 1.62 KB
-A.)Problem Analysis: Calculating Automobile Range
-
-To create a program that calculates the maximum distance an automobile can travel without needing a refuel, based on the fuel tank's capacity and the vehicle's miles per gallon efficiency.
-
-Inputs:
-
-Tank Capacity (in gallons): This value represents the maximum amount of fuel the automobile's tank can hold. Miles per Gallon Efficiency: This value signifies the distance the automobile can cover per gallon of fuel.
-
+Calculate the gross salary:
+Gross Salary = Base Salary + (Weekly Working Hours * Bonus Rate per Hour)
+Calculate the pension deduction:
+Pension Deduction = Gross Salary * 0.05 (5% deduction)
+Calculate the net salary:
+Net Salary = Gross Salary - Pension Deduction - (Gross Salary * 0.15) (15% tax deduction)
+Calculate the bonus payment:
+Bonus Payment = Weekly Working Hours * Bonus Rate per Hour
 Output:
 
-The program will output the total distance the automobile can travel without refueling, based on the provided tank capacity and miles per gallon efficiency.
+Display the employee's name, gross salary, net salary, and bonus payment.
+B.) Algorithm Design:
 
-B.)Algorithm Design:
-
-Step1.Start
-
-Step2.Declare variables tankCapacity, milesPerGallon, and milesPossible of type double.
-
-Step3.Display a message to prompt the user to input the fuel tank capacity (tankCapacity).
-
-Step4.Read and store the user input into the variable tankCapacity.
-
-Step5.Display a message to prompt the user to input the miles per gallon (milesPerGallon).
-
-Step6.Read and store the user input into the variable milesPerGallon.
-
-Step7.Calculate milesPossible by multiplying tankCapacity with milesPerGallon.
-
-Step8.Display the calculated value of milesPossible as the number of miles the automobile can be driven without refueling.
-
-Step9.End
-
-flow chart
-``` mermiad
+Start
+Input employee name, weekly working hours, bonus rate per hour, and base salary.
+Calculate gross salary:
+Gross Salary = Base Salary + (Weekly Working Hours * Bonus Rate per Hour)
+Calculate pension deduction:
+Pension Deduction = Gross Salary * 0.05
+Calculate tax deduction:
+Tax Deduction = Gross Salary * 0.15
+Calculate net salary:
+Net Salary = Gross Salary - Pension Deduction - Tax Deduction
+Calculate bonus payment:
+Bonus Payment = Weekly Working Hours * Bonus Rate per Hour
+Display employee name, gross salary, net salary, and bonus payment.
+End
+#Flowchart
+```mermaid
 graph TD;
-A([Start]) --> B[/"Enter the capacity of your automobile:,
-Enter the miles per gallon your automobile can be driven:"/];
-B --> D[miles = fuelCapacity * milesPerGallon];
-D --> E[/'The number of miles your automobiles can be driven without refuling is' miles/];
-E --> F([End]);
+A([Start]) --> B[/"Enter employee name:
+Enter weekly working hours:
+Enter bonus rate per hour:
+Enter base salary:"/];
+B--> C["Calculate  grossSalary = baseSalary + (weeklyHours * bonusRate),
+Calculate pension = 0.05 * grossSalary,
+Calculate tax = 0.15 * grossSalary,
+Calculate  netSalary = grossSalary - pension - tax,
+Calculate bonusPayment = weeklyHours * bonusRate"];
+C--> D[/"Display 'Employee Name: ', employeeName
+ Display 'Gross Salary: $', grossSalary
+ Display 'Net Salary: $', netSalary
+ Display 'Bonus Payment: $', bonusPayment"/]
+end;
 ```
