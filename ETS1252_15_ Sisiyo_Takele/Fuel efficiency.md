@@ -23,3 +23,22 @@ milesPossible = tankCapacity * milesPerGallon
 Display "The automobile can be driven for " + milesPossible + " miles without refueling."
 
 End This algorithm design outlines the steps needed to achieve the desired functionality of the program in a structured manner, providing a clear sequence of actions to solve the problem.
+# Flow chart
+... mermaid
+Start
+|
+v
+Input automobile fuel tank capacity in gallons
+|
+v
+Input automobile fuel efficiency in miles per gallon
+|
+v
+Calculate distance = fuel tank capacity * fuel efficiency
+|
+v
+Display distance the automobile can travel without refueling
+|
+v
+End    
+...
