@@ -51,7 +51,7 @@ v
 Output BMI category based on BMI value:
     Underweight: BMI < 18.5
     Normal weight: 18.5 <= BMI < 25
-    Overweight: 25 <= BMI < 30
+    Overweight:  25 <= BMI < 30
     Obese: BMI >= 30
 |
 v
