@@ -29,8 +29,10 @@ Pseudocode:
 8 Display "BMI is: ", bmi
 
 9 End
-flowchart
 
+
+flowchart
+... mermaid 
 Start
 |
 v
@@ -53,4 +55,5 @@ Output BMI category based on BMI value:
     Obese: BMI >= 30
 |
 v
-End   1
+End   
+...
