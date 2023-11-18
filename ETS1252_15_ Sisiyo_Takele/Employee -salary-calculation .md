@@ -37,7 +37,7 @@ Calculate bonus payment:
 Bonus Payment = Weekly Working Hours * Bonus Rate per Hour
 Display employee name, gross salary, net salary, and bonus payment.
 End
-#Flowchart
+# Flow chart
 ```mermaid
 graph TD;
 A([Start]) --> B[/"Enter employee name:
@@ -53,5 +53,4 @@ C--> D[/"Display 'Employee Name: ', employeeName
  Display 'Gross Salary: $', grossSalary
  Display 'Net Salary: $', netSalary
  Display 'Bonus Payment: $', bonusPayment"/]
-end);
-```
+'''
