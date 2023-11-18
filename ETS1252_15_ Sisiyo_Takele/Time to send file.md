@@ -16,18 +16,20 @@ Display the calculated time in days, hours, minutes, and seconds.
 B.)Aligorithm Design:
 
 Start
-Declare constants:
-transmissionSpeed = 960 characters per second
-fileSizeBytes = 419,430,400 bytes (400MB)
-Calculate the file size in bits:
-fileSizeBits = fileSizeBytes * 8 (convert bytes to bits)
-Calculate the time required to send the file:
-timeInSeconds = fileSizeBits / transmissionSpeed
-Convert timeInSeconds to days, hours, minutes, and seconds.
-Display the calculated time to the user.
+1Declare constants:
+2 transmissionSpeed = 960 characters per second
+3 fileSizeBytes = 419,430,400 bytes (400MB)
+4 Calculate the file size in bits:
+5 fileSizeBits = fileSizeBytes * 8 (convert bytes to bits)
+ 6 Calculate the time required to send the file:
+7 timeInSeconds = fileSizeBits / transmissionSpeed
+8 Convert timeInSeconds to days, hours, minutes, and seconds.
+9 Display the calculated time to the user.
 End
+
 #Folw chart
-``` mermaid
+```mermaid
+flowchart TD;
 A([Start]) --> B[/Enter the file size in bytes:/];
 B--> C["transmissionTime = fileSizeInCharacters / transmissionRate"];
 C --> D[/'Time required to transmit the file:' transmissionTime/];
