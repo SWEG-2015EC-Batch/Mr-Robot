@@ -26,31 +26,31 @@ The program should have user-friendly prompts and messages to guide the user thr
 
 Program Termination:
 
-After displaying the uppercase and lowercase equivalents or an error message, the program shou
-#flow chart
+After displaying the uppercase and lowercase equivalents or an error message, the program should terminate.
+
+B.)Algorithm Design:
 ```mermaid
-Start
-|
-v
-Input a character from the keyboard
-|
-v
-Check if the character is uppercase using the isupper() function
-   |   |
-   |   v   Yes
-   |   v   Convert the character to lowercase using the tolower() function
-   |   v   Display the lowercase character
-   |   v   No
-   |   v   Check if the character is lowercase using the islower() function
-   |       |
-   |       v   Yes
-   |       v   Convert the character to uppercase using the toupper() function
-   |       v   Display the uppercase character
-   |       v   No
-   |       v   Display an error message indicating the input is not a letter
-|
-v
-End
+Step 1: Start
+
+Step 2: Declare variables inputChar and convertedChar as characters
+
+Step 3: Display "Enter a letter: "
+
+Step 4: Read inputChar from the user
+
+Step 5: Check if inputChar is an alphabet letter:
+
+If YES, proceed to Step 6
+If NO, display "Please enter a valid letter." and go to Step 10
+Step 6: Convert inputChar to uppercase using toupper() function and store the result in convertedChar
+
+Step 7: Display "Uppercase equivalent: " followed by convertedChar Step 8: Convert inputChar to
+
+lowercase using tolower() function and store the result in convertedChar
+
+Step 9: Display "Lowercase equivalent: " followed by convertedChar
+
+Step 10: End
 ```
 
-
+#Flowchart
