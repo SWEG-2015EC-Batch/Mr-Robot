@@ -1,4 +1,4 @@
-A.)Problem Analysis: The problem is to develop a program that takes a single character input from the user and converts it to its uppercase and lowercase equivalents. The program should handle both scenarios where the user enters a valid letter and where they input a character that is not a letter.
+noA.)Problem Analysis: The problem is to develop a program that takes a single character input from the user and converts it to its uppercase and lowercase equivalents. The program should handle both scenarios where the user enters a valid letter and where they input a character that is not a letter.
 
 Input:
 
@@ -29,7 +29,6 @@ Program Termination:
 After displaying the uppercase and lowercase equivalents or an error message, the program should terminate.
 
 B.)Algorithm Design:
-```mermaid
 Step 1: Start
 
 Step 2: Declare variables inputChar and convertedChar as characters
@@ -51,6 +50,29 @@ lowercase using tolower() function and store the result in convertedChar
 Step 9: Display "Lowercase equivalent: " followed by convertedChar
 
 Step 10: End
-```
 
 #Flowchart
+```mermaid
+
+ graph TD;
+
+ A([Start]) --> 8[/Enter a letter:/];
+
+ B--> C("check for islower (letter)"};
+
+ C--> If true D["Change the letter to uppercase using toupper()");
+
+D--> E[/"Print "Uppercase equivalent: followed by the uppercase of the letter"/1;
+
+C--> If false F("check for isupper (letter)");
+ F--> If true G["Change the letter to lowercase using tolower()"];
+
+ G-->H[/"Print Lowercase equivalent: followed by the lowercase of the letter"/];
+
+F--> If false I[/Invalid input/]
+
+ I-->3([End]);
+ E-->3([End]);
+
+H-->3([End]
+```
