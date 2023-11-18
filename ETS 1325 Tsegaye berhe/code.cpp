@@ -58,6 +58,7 @@ cin >> y;
   cout << pow(x, y);
   return 0;
 }
+// salary
 #include <iostream>
 using namespace std;
 
@@ -96,7 +97,23 @@ int main() {
   cout << "Time" << time << " seconds" << endl;
   return 0;
 }
+ // uppercase lower case
+#include <iostream>
+#include <cctype>
 
+int main() {
+    std::string input;
+    std::cout << "Enter a string: ";
+    std::getline(std::cin, input);
 
-
+    for (char &c : input) {
+        if (std::isupper(c)) {
+            c = std::tolower(c);
+        } else if (std::islower(c)) {
+            c = std::toupper(c);
+        }
+    }
+   cout << "Converted string: " << input << endl;
+    return 0;
+}
 
