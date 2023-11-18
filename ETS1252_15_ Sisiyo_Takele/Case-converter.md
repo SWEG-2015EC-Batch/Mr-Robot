@@ -74,5 +74,5 @@ F--> If false I[/Invalid input/]
  I-->3([End]);
  E-->3([End]);
 
-H-->3([End]
+H-->3([End]);
 ```
