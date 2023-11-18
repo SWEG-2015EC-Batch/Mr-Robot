@@ -19,3 +19,22 @@ Display "Lowercase equivalent: " + convertedChar
 Else Display "Please enter a valid letter." End If
 
 End
+# Flow chart
+... mermaid
+Start
+|
+v
+Input automobile fuel tank capacity in gallons
+|
+v
+Input automobile fuel efficiency in miles per gallon
+|
+v
+Calculate distance = fuel tank capacity * fuel efficiency
+|
+v
+Display distance the automobile can travel without refueling
+|
+v
+End    
+...
