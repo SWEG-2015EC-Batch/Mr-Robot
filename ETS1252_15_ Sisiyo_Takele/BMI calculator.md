@@ -29,3 +29,28 @@ Pseudocode:
 8 Display "BMI is: ", bmi
 
 9 End
+flowchart
+
+Start
+|
+v
+Input person's height in meters
+|
+v
+Input person's weight in kilograms
+|
+v
+Calculate BMI = weight / (height * height)
+|
+v
+Display BMI value
+|
+v
+Output BMI category based on BMI value:
+    Underweight: BMI < 18.5
+    Normal weight: 18.5 <= BMI < 25
+    Overweight: 25 <= BMI < 30
+    Obese: BMI >= 30
+|
+v
+End   1
