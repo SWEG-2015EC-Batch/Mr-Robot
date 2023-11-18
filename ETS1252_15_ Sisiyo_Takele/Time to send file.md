@@ -28,7 +28,6 @@ Display the calculated time to the user.
 End
 #Folw chart
 ``` mermaid
- TD;
 A([Start]) --> B[/Enter the file size in bytes:/];
 B--> C["transmissionTime = fileSizeInCharacters / transmissionRate"];
 C --> D[/'Time required to transmit the file:' transmissionTime/];
