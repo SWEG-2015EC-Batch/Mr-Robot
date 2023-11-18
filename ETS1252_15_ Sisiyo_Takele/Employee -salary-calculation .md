@@ -1,98 +1,74 @@
-A.) Problem Analysis: The problem requires designing an algorithm and a program to calculate an employee's gross salary, net salary, and bonus payment based on the provided information: employee name, weekly working hours, bonus rate per hour, and base salary. Additionally, the problem hints at considering a pension rate of -5% and a tax rate of 15%. Here's the analysis:
+Skip to content
+SWEG-2015EC-Batch
+/
+Felix
 
-Input:
+Code
+Issues
+Pull requests
+Discussions
+Actions
+Projects
+Security
+Insights
+BreadcrumbsFelix/ETS1071_15_NATNAEL_ASFAW
+/Fuel_Efficiency_Calculator.md
+Go to file
+t
+Latest commit
+Natthy2023
+Natthy2023
+Update Fuel_Efficiency_Calculator.md
+a57830d
+ · 
+3 hours ago
+History
+File metadata and controls
 
-Employee name: String input.
-Weekly working hours: Numeric input (hours worked per week).
-Bonus rate per hour: Numeric input (additional pay rate per hour worked).
-Base salary: Numeric input (fixed salary amount).
-Calculations:
+Preview
 
-Calculate the gross salary:
-Gross Salary = Base Salary + (Weekly Working Hours * Bonus Rate per Hour)
-Calculate the pension deduction:
-Pension Deduction = Gross Salary * 0.05 (5% deduction)
-Calculate the net salary:
-Net Salary = Gross Salary - Pension Deduction - (Gross Salary * 0.15) (15% tax deduction)
-Calculate the bonus payment:
-Bonus Payment = Weekly Working Hours * Bonus Rate per Hour
+Code
+
+Blame
+42 lines (26 loc) · 1.62 KB
+A.)Problem Analysis: Calculating Automobile Range
+
+To create a program that calculates the maximum distance an automobile can travel without needing a refuel, based on the fuel tank's capacity and the vehicle's miles per gallon efficiency.
+
+Inputs:
+
+Tank Capacity (in gallons): This value represents the maximum amount of fuel the automobile's tank can hold. Miles per Gallon Efficiency: This value signifies the distance the automobile can cover per gallon of fuel.
+
 Output:
 
-Display the employee's name, gross salary, net salary, and bonus payment.
-B.) Algorithm Design:
+The program will output the total distance the automobile can travel without refueling, based on the provided tank capacity and miles per gallon efficiency.
 
-Start
+B.)Algorithm Design:
 
-Input employee name, weekly working hours, bonus rate per hour, and base salary.
+Step1.Start
 
-Calculate gross salary:
+Step2.Declare variables tankCapacity, milesPerGallon, and milesPossible of type double.
 
-Gross Salary = Base Salary + (Weekly Working Hours * Bonus Rate per Hour)
-Calculate pension deduction:
+Step3.Display a message to prompt the user to input the fuel tank capacity (tankCapacity).
 
-Pension Deduction = Gross Salary * 0.05
-Calculate tax deduction:
+Step4.Read and store the user input into the variable tankCapacity.
 
-Tax Deduction = Gross Salary * 0.15
-Calculate net salary:
+Step5.Display a message to prompt the user to input the miles per gallon (milesPerGallon).
 
-Net Salary = Gross Salary - Pension Deduction - Tax Deduction
-Calculate bonus payment:
+Step6.Read and store the user input into the variable milesPerGallon.
 
-Bonus Payment = Weekly Working Hours * Bonus Rate per Hour
-Display employee name, gross salary, net salary, and bonus payment.
+Step7.Calculate milesPossible by multiplying tankCapacity with milesPerGallon.
 
-End Pseudocode: START
+Step8.Display the calculated value of milesPossible as the number of miles the automobile can be driven without refueling.
 
-INPUT employeeName (Prompt for employee's name)
+Step9.End
 
-INPUT weeklyWorkingHours (Prompt for weekly working hours)
-
-INPUT bonusRatePerHour (Prompt for bonus rate per hour)
-
-INPUT baseSalary (Prompt for base salary)
-
-SET grossSalary = baseSalary + (weeklyWorkingHours * bonusRatePerHour)
-
-SET pensionDeduction = grossSalary * 0.05 (5% pension deduction)
-
-SET taxDeduction = grossSalary * 0.15 (15% tax deduction)
-
-SET netSalary = grossSalary - pensionDeduction - taxDeduction
-
-SET bonusPayment = weeklyWorkingHours * bonusRatePerHour
-
-DISPLAY "Employee Name: employeeName"
-
-DISPLAY "Gross Salary: grossSalary"
-
-DISPLAY "Net Salary: netSalary"
-
-DISPLAY "Bonus Payment: bonusPayment"
-
-END
-# Flow chart
-... mermaid
-Start
-|
-v
-Input a character from the keyboard
-|
-v
-Check if the character is uppercase using the isupper() function
-   |   |
-   |   v   Yes
-   |   v   Convert the character to lowercase using the tolower() function
-   |   v   Display the lowercase character
-   |   v   No
-   |   v   Check if the character is lowercase using the islower() function
-   |       |
-   |       v   Yes
-   |       v   Convert the character to uppercase using the toupper() function
-   |       v   Display the uppercase character
-   |       v   No
-   |       v   Display an error message indicating the input is not a letter
-|
-v
-End
-...
+flow chart
+``` mermiad
+graph TD;
+A([Start]) --> B[/"Enter the capacity of your automobile:,
+Enter the miles per gallon your automobile can be driven:"/];
+B --> D[miles = fuelCapacity * milesPerGallon];
+D --> E[/'The number of miles your automobiles can be driven without refuling is' miles/];
+E --> F([End]);
+```
