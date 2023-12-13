@@ -1,9 +1,10 @@
 ```mermaid
 graph TD;
-    A[Start] --> B[Enter a character];
-    B --> C{Is the character a vowel?};
-    C -- Yes --> D[Display "Vowel"];
-    C -- No --> E[Display "Consonant"];
-    E --> F[End];
-    D --> F[End];
+    A[Start] --> B{Input temperature};
+    B --> |"c/C"| C[Convert to Fahrenheit];
+    B --> |"f/F"| D[Convert to Celsius];
+    C --> E[Display temperature in Fahrenheit];
+    D --> F[Display temperature in Celsius];
+    E --> G[End];
+    F --> G;
 ```
