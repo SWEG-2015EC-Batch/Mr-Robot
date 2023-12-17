@@ -5,11 +5,9 @@ using namespace std;
 int main(){
     double NetPay, grossSalary ,workedHours ,overTimeBonusRate,
           pension, incomeTax, overTimePayment;
-
-
+ 
     cout <<"           Net-salary calculator" << endl;
-
-    cout <<"\nPlease enter your gross salary: ";
+    cout <<Enter gross salary of employee : ";
     cin >> grossSalary;
     pension = 0.7*grossSalary;
     if (grossSalary < 200)
