@@ -1,1 +1,0 @@
-Solan Adugna. Sec D
