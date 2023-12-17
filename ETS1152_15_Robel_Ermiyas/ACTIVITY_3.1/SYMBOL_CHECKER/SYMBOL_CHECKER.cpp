@@ -1,4 +1,4 @@
-3. //A C++ program that checks the type of character.
+//A C++ program that checks the type of character.
 #include <iostream>
 using namespace std;
 
