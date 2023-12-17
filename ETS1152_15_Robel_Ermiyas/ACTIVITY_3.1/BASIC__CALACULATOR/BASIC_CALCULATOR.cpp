@@ -1,4 +1,3 @@
-2.
 // A C++ program that make simple calculator.
 #include <iostream>
 using namespace std;
