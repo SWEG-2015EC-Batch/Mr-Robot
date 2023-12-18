@@ -6,13 +6,25 @@
    elements. Finally, it calculates the standard deviation by taking the square root of the variance. The program outputs the input numbers, mean, and standard 
    deviation.
 
+2. Problem analysis:
+
+input:
+
+   - numbers
+
+output:
+
+   -mean
+   -standard devaition
+   -variance
+
+procsess:
+
+   -read numbers
+   -compute mean, standard devaition and variance using loops based on thier formulas.
 
 
-
-
-
-
-3. Algoritm Design:
+4. Algoritm Design:
 
 
 
