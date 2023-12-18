@@ -14,11 +14,9 @@ input:
 
 output:
 
-   -mean
-   -standard devaition
-   -variance
+   -mean, standard devaition, variance
 
-procsess:
+process:
 
    -read numbers
    -compute mean, standard devaition and variance using loops based on thier formulas.
