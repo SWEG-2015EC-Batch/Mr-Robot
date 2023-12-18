@@ -1,4 +1,4 @@
-Jim//This program is used to calculate an Net-Pay of an employee
+//This program is used to calculate an Net-Pay of an employee
 #include <iostream>
 using namespace std;         
 
