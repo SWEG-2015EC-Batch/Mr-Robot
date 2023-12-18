@@ -41,7 +41,7 @@ Display "Thank you for using the program."
 End
   # flow chart
   ```mermaid
-flowchart TD
+graph TD
   A[Start] --> B[Enter number of students (n)];
 B --> C{n > 0 and n <= 100?};
 C -->|Yes| D[Loop for each student (i = 1; i <= n; i++)];
