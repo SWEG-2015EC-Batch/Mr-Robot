@@ -1,16 +1,21 @@
 Problem Description:
 1,Problem Discription
-Program to draw rectangle with continous letter
+Program to draw rectangle with continous letter,
+
+
 
 2,Program Analysis
 Input
 row , column
+
 process
 use loop for row and column
+
+
 Output
 rectangle with letter
 
-Algorithm Design:
+3. Algorithm Design:
 1. Start
 2. Use two nested for loops to iterate through each row and column of the rectangle.
 3. In the outer for loop, iterate from 1 to 5 to represent each row.
