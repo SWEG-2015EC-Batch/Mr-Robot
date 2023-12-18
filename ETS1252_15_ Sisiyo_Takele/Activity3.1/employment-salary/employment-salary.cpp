@@ -1,42 +1,38 @@
 #include <iostream>
+using namespace std;         
 
-using namespace std;
-
-int main() {
-  double grossSalary, workedHours, incomeTaxRate, overtimeBonusRate, netPay, pensionDeduction, incomeTax, overtimePayment;
-
+int main(){
+    double NetPay, grossSalary ,workedHours ,overTimeBonusRate,
+          pension, incomeTax, overTimePayment;
  
-  cout << "Enter gross salary: ";
-  cin >> grossSalary;
-  cout << "Enter worked hours: ";
-  cin >> workedHours;
-  cout << "Enter income tax rate (0.0 to 1.0): ";
-  cin >> incomeTaxRate;
+    cout <<"           Net-salary calculator" << endl;
+    cout <<"Enter gross salary of employee : ";
+    cin >> grossSalary;
+    pension = 0.07*grossSalary;
+    if (grossSalary < 200)
+        incomeTax = 0;
+     else if (grossSalary >= 200 && grossSalary < 600)
+        incomeTax = 0.1*grossSalary;
+       else if (grossSalary >= 600 && grossSalary < 1200)
+        incomeTax = 0.15*grossSalary;
+    else if (grossSalary >=1200 && grossSalary < 2000)
+        incomeTax = 0.2*grossSalary;
+    else if (grossSalary >= 2000 && grossSalary < 3500)
+        incomeTax = 0.25*grossSalary;
+    else
+        incomeTax = 0.3*grossSalary;
 
- 
-  pensionDeduction = grossSalary * 0.07;
-  incomeTax = grossSalary * incomeTaxRate;
+    cout <<"Please enter the worked hours: ";
+   cin >> workedHours;
+    if (workedHours > 40) {
+        cout <<"Please enter over-time bonus rate /hour: ";
+        cin >> overTimeBonusRate;
+        overTimePayment=(overTimeBonusRate * (workedHours-40));
+        NetPay=grossSalary - pension-incomeTax + overTimePayment;
+        }
+        else
+        NetPay=grossSalary - pension-incomeTax;
 
- 
-  netPay = grossSalary - pensionDeduction - incomeTax;
-
- 
-  if (workedHours > 40) {
-    int overtimeHours = workedHours - 40;
-
-   
-    cout << "Enter overtime bonus rate per hour: ";
-    cin >> overtimeBonusRate;
-
-   
-    overtimePayment = overtimeHours * overtimeBonusRate;
-
-  
-    netPay += overtimePayment;
-  }
-
-  // Display net pay
-  cout << "Net pay: " << netPay << endl;
-
-  return 0;
+    cout <<"The Net-Pay of an employee;  " << NetPay;
+    return 0;
 }
