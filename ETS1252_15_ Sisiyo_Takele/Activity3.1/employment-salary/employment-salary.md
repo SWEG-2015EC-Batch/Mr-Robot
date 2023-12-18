@@ -18,8 +18,9 @@ if workedHours > 40 Input overtimeRate overtimePayment = (workedHours - 40) * ov
 
 Output : netSalary
    # flow chart
+   ```mermaid
    graph TD;
-```mermaid
+
 A([Start]) --> B[/"
 Enter weekly working hours:
 Enter bonus rate per hour:
