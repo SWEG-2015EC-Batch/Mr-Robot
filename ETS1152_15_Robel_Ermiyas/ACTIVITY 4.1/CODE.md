@@ -46,7 +46,8 @@ process:
 
 4. Flowchart:
 
-    graph TD;
+    ```mermaid
+graph TD;
     A[Start] --> B[Input n]
     B --> C[Initialize sum, sumSquared, and count]
     C --> D[Input x]
@@ -60,6 +61,8 @@ process:
     J --> K[Calculate standard deviation]
     K --> L[Output mean, variance, and standard deviation]
     L --> M[Stop]
+
+```
 
 
 
