@@ -1,4 +1,4 @@
-//This program is used to calculate an Net-Pay of an employee
+Jim//This program is used to calculate an Net-Pay of an employee
 #include <iostream>
 using namespace std;         
 
@@ -7,9 +7,9 @@ int main(){
           pension, incomeTax, overTimePayment;
  
     cout <<"           Net-salary calculator" << endl;
-    cout <<Enter gross salary of employee : ";
+    cout <<"Enter gross salary of employee : ";
     cin >> grossSalary;
-    pension = 0.7*grossSalary;
+    pension = 0.07*grossSalary;
     if (grossSalary < 200)
         incomeTax = 0;
      else if (grossSalary >= 200 && grossSalary < 600)
