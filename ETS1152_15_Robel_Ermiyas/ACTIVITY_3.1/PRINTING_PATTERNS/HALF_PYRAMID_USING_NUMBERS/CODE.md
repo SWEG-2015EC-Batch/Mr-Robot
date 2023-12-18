@@ -1,15 +1,12 @@
-Problem Description: Program to to construct half pyramid using numbers
+1. Problem Description:
+ Program to to construct half pyramid using numbers
 
 2,Problem analysis 
-Input side
+Input rows
 
-process Printing row using a star Repeat for each colomn
+process: read rows, use for loop to print half pyramid
 
-Output: for half pyramid
-
-
-
-
+Output: half pyramid
 
 Algorithm Design:
 1. Start
