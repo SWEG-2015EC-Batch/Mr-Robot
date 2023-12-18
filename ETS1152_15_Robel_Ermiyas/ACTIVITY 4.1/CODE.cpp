@@ -34,7 +34,7 @@ int main() {
         cout << num << " ";
     }
 
-    cout << "\nMean: " << mean << std::endl;
+    cout << "\nMean: " << mean << endl;
     cout << "Standard Deviation: " << stdDeviation << endl;
 
     return 0;
