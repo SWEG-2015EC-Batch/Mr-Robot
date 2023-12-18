@@ -1,4 +1,5 @@
-graph TD;```mermiad
+graph TD;
+```mermiad
     A[Start] --> B[Enter hours worked in a week];
     B --> C{Hours worked <= 40?};
     C -->|Yes| D[Calculate gross pay];
