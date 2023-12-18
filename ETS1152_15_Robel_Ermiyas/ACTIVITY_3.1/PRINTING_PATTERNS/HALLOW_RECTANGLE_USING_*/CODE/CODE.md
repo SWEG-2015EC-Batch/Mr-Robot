@@ -1,10 +1,14 @@
-Proam Description:
+1. Proam Description: Program to draw hallow rectangle using*.
+
+2.Problem Analysis 
+Input: side
+output: hallow rectangle
+process: read sides,
+         compute the rectangle using loop statment.
+
+3. Algorithm Design:
 
 
-
-
-
-Algorithm Design:
 1. Start
 2. Use a for loop to iterate through each row of the half pyramid.
 3. In the for loop, iterate from 1 to 5 to represent each row.
