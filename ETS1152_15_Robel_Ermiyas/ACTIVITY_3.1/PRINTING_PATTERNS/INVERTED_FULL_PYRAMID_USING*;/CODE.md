@@ -9,6 +9,7 @@ process: read rows,
            j increases until it reaches i
          
 3. Algorithm design:
+
   1. Start
   2. Declare variable rows to store the number of rows.
   3. Take input from the user for the number of rows.
