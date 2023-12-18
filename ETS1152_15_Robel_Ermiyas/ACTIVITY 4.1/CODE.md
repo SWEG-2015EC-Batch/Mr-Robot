@@ -46,7 +46,7 @@ process:
 
 4. Flowchart:
 
-  
+ ```mermaid 
 graph LR
 A[(Start)] --> B[/Enter the number of elements/]
 B --> C[Initialize variables]
@@ -68,7 +68,7 @@ P --> L
 L --> Q[/Calculate average variance/]
 Q --> R[/Calculate standard deviation/]
 R --> S[(End)]
-
+```
 
 
 
