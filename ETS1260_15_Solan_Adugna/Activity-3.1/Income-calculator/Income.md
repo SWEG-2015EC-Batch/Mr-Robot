@@ -1,5 +1,4 @@
 **Analysis:**
-
 This C++ program calculates the net pay of an employee based on the provided gross salary, worked hours, over-time bonus rate, pension, and income tax. It considers different income tax rates based on the gross salary range and calculates over-time payment if the employee has worked more than 40 hours.
 
 **Algorithm:**
