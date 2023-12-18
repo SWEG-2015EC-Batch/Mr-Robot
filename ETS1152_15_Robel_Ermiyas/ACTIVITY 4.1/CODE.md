@@ -7,7 +7,7 @@
 
 
 
-2. Algoritm Design
+2. Algoritm Design:
 
 
 
