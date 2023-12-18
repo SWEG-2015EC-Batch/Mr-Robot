@@ -100,5 +100,6 @@ AL -->|No| AM[D (Total >= 30)];
 AM -->|Yes| AG;
 AM -->|No| AN[F (Total < 30)];
 AN -->|Yes| AG;
-AN -->|No| AO[Print error - Invalid grade, Stop];
+AN -->|No| AO[Print error - Invalid grade];
+AO-->([ Stop]);
 ```
