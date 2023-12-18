@@ -11,6 +11,8 @@ Algorithm:
 
            **Flowchart**
 
-   ![Uploading grade (1).jpg…]()
+![grade (1)](https://github.com/SWEG-2015EC-Batch/Mr-Robot/assets/149063873/eb546538-ad1b-4083-8dd5-5dbf20d36428)
+
+
 
 
