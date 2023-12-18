@@ -1,8 +1,14 @@
 Problem Description:
+1,Problem Discription
+Program to draw rectangle with continous letter
 
-
-
-
+2,Program Analysis
+Input
+row , column
+process
+use loop for row and column
+Output
+rectangle with letter
 
 Algorithm Design:
 1. Start
