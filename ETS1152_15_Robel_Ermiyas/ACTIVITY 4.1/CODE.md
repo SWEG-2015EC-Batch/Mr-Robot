@@ -19,10 +19,38 @@ output:
 process:
 
    -read numbers
+        
    -compute mean, standard devaition and variance using loops based on thier formulas.
 
 
-4. Algoritm Design:
+3. Algoritm Design:
+
+  1. start
+  2. Initialize variables: n (number of elements), sum (sum of entered numbers), mean (mean of numbers), variance (variance of numbers), and stdDeviation (standard deviation of numbers).
+
+  3. Prompt the user to enter the number of elements and store it in n.
+
+  4. Prompt the user to enter n numbers and calculate the sum of the entered numbers. Store the sum in sum.
+ 
+  5. Calculate the mean by dividing the sum by n and store it in mean.
+
+  6. Reset the value of sum to 0.
+
+  7. Prompt the user to enter n numbers again. Calculate the variance by summing up the squared differences between each number and the mean. Store the sum in variance.
+
+  8. Divide variance by n to obtain the average variance.
+
+  9. Calculate the standard deviation by taking the square root of the variance and store it in stdDeviation.
+
+ 10. Output the input numbers by prompting the user to enter n numbers again and printing them.
+ 11. stop
+
+
+
+
+
+
+   
 
 
 
