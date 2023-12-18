@@ -46,23 +46,38 @@ process:
 
 4. Flowchart:
 
-    ```mermaid
-graph TD;
-    A[Start] --> B[Input n]
-    B --> C[Initialize sum, sumSquared, and count]
-    C --> D[Input x]
-    D --> E[Add x to sum]
-    E --> F[Add x^2 to sumSquared]
-    F --> G[Increment count]
-    G --> H[Check if count < n]
-    H -- Yes --> D
-    H -- No --> I[Calculate mean]
-    I --> J[Calculate variance]
-    J --> K[Calculate standard deviation]
-    K --> L[Output mean, variance, and standard deviation]
-    L --> M[Stop]
+  
+graph LR
+A[(Start)] --> B[/Enter the number of elements/]
+B --> C[Initialize variables]
+C --> D[Sum, mean, variance, stdDeviation = 0]
+D --> E[Initialize counter I]
+E --> F{I < n}
+F --> G[Enter a number]
+G --> H[Add the number to sum]
+H --> I[Increment i]
+I --> E
+E --> J[/Calculate mean/]
+J --> K[Reset sum]
+K --> L[Initialize counter I]
+L --> M{I < n}
+M --> N[Enter a number]
+N --> O[Calculate variance]
+O --> P[Increment I]
+P --> L
+L --> Q[/Calculate average variance/]
+Q --> R[/Calculate standard deviation/]
+R --> S[(End)]
 
-```
+
+
+
+
+
+
+
+
+
 
 
 
