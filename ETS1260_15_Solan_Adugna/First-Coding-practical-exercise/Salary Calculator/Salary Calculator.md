@@ -11,11 +11,13 @@ Calculate : Gross salary: Gross Salary = Base Salary + (Weekly Working Hours * B
  :Pension deduction: Pension Deduction = Gross Salary * 0.05 (5% deduction) 
  :Net Salary = Gross Salary - Pension Deduction - (Gross Salary * 0.15) (15% tax deduction) 
 :Bonus Payment = Weekly Working Hours * Bonus Rate per Hour Output:
+
 Output: the employee's name
       : net salary
      : and bonus payment
   
   B.) Algorithm Design:
+
 Pseudocode:
 1 START
 2 INPUT employeeName (Prompt for employee's name)
