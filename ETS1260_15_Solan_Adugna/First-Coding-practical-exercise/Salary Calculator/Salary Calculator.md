@@ -1,4 +1,6 @@
 A.) Problem analysis;
+
+
 Input:Employee name                              
  :Weekly working hours                                    
  : Bonus rate per hour                                       
