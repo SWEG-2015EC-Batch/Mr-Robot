@@ -48,7 +48,7 @@ process:
 
  ```mermaid 
 graph LR
-A[(Start)] --> B[/Enter the number of elements/]
+A([Start]) --> B[/Enter the number of elements/]
 B --> C[Initialize variables]
 C --> D[Sum, mean, variance, stdDeviation = 0]
 D --> E[Initialize counter I]
@@ -67,7 +67,7 @@ O --> P[Increment I]
 P --> L
 L --> Q[/Calculate average variance/]
 Q --> R[/Calculate standard deviation/]
-R --> S[(End)]
+R --> S([End])
 ```
 
 
