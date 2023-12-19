@@ -32,4 +32,12 @@ Step9.End
 
             ** Flow chart**
 
+            graph TD;
+A([Start]) --> B[/"Enter the capacity of your automobile:,
+Enter the miles per gallon your automobile can be driven:"/];
+B --> D[miles = fuelCapacity * milesPerGallon];
+D --> E[/'The number of miles your automobiles can be driven without refuling is' miles/];
+E --> F([End]);
+
+
             
