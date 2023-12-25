@@ -6,7 +6,7 @@ int mani() {
     string weakends [] ={"cool "};//using c++ two D
     
     char weakendss [5]={'c','o','o','l'};//using c 1 D
-  //  char weakendss [5][]={'c','o','o','l'};//using c 1 D
+  //  char weakendss [5][]={'c','o','o','l'};//using c 1 D    for c style us use 1+ size to store non character eg for 4 size we store [5] size
     return 0;
     //
 }
