@@ -1,3 +1,4 @@
+//getline use to write a string (word) with a white space
 #include<iostream>
 using namespace std;
 int main(){
