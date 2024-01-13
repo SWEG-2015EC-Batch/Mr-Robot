@@ -15,7 +15,7 @@ string removeNonAlphabetCharacters(const string& input) {
 int main() {
     string input;
     cout << "Enter a string: ";
-    getline(std::cin, input);
+    getline(cin, input);
     
     string modifiedString = removeNonAlphabetCharacters(input);
     
