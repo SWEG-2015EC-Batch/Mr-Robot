@@ -1,6 +1,4 @@
-/* A C++ program that input eight integer numbers into an array named temp and
-As each number is input, that add the number into a total. After all numbers are input, 
-that display the number and their average.*/
+// A C++ program that display the number it self and their average.
 
 #include <iostream>
 using namespace std;
