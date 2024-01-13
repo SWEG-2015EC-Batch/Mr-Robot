@@ -1,6 +1,3 @@
-// This program checks if a string is a palindrome or not
-// by Robeil
-//A C++ program that checks whether a given word is a palindrome.
 #include <iostream>
 #include <string>
 using namespace std;
@@ -20,7 +17,7 @@ int main()
     {
         if (word[i] != word[word.length() - i - 1])
         {
-            std::cout << word << " is not a palindrome" << endl;
+            cout << word << " is not a palindrome" << endl;
             return 0;
         }
     }
