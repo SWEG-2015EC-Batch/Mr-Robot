@@ -1,5 +1,4 @@
 // A C++ program that display the number it self and their average.
-
 #include <iostream>
 using namespace std;
 int main() {
