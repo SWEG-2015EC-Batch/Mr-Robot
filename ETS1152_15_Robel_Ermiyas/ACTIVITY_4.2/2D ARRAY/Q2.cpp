@@ -1,10 +1,8 @@
 /*A C++ program that accepts a two-dimensional array from the user and then calculates the product of elements
 in each row and the sum of elements in each column. The program prompts the user to enter the number of rows and columns,
 and then takes input for each element of the array.*/
-
 #include <iostream>
 using namespace std;
-
 int main() {
     int rows, columns;
     cout << "Enter the number of rows: ";
