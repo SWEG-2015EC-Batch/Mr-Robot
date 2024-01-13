@@ -1,6 +1,5 @@
 /*This C++ program reads and adds equivalent elements of two-dimensional arrays named first and second. 
 The resulting data elements are then printed in table form.*/
-
 #include <iostream>
 using namespace std;
 const int ROWS = 3;
