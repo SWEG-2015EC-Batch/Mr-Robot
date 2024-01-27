@@ -1,4 +1,3 @@
-
 //Automated Room Reservation System for a Hotel.
 #include <iostream>
 #include <string>
