@@ -1,3 +1,11 @@
+              Code Description
+
+The code generates a pattern using nested loops and conditional statements 
+based on the user-input height, creating a symmetric shape with calculated 
+numbers. The conditional statements control the placement and values of the 
+printed numbers.
+  
+      PSEUDOCODE
   step 1. Start the program.
 
   step 2. Prompt the user to enter the height.
