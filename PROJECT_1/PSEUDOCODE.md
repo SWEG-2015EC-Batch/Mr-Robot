@@ -42,3 +42,34 @@ PSEUDOCODE
      step 17. Additional features can be implemented after the reservation confirmation.
  
      step 18. End the program.
+
+
+FLOWCHART BY USING MERMAID SYNTAX
+
+```mermaid
+graph TD
+A[Start] --> B[Welcome to the Hotel Reservation System!]
+B --> C[Enter name]
+C --> D[Enter gender]
+D --> E[Enter age]
+E --> F[Enter reservation code]
+F --> G[Select room type]
+G --> H{Room type}
+H --> |1| I[Assign room in Ocean View Suite category]
+H --> |2| J[Assign room in Poolside Villa category]
+H --> |3| K[Assign room in Garden View Room category]
+H --> |Invalid| L[Invalid room type selected]
+I --> M[Room assigned successfully]
+M --> N[Display reservation confirmation]
+N --> O[End]
+J --> P[Room assigned successfully]
+P --> N
+K --> Q[Room assigned successfully]
+Q --> N
+L --> R[No more available rooms in the selected category]
+R --> S[Ask if they want to be assigned a room in another category]
+S --> |yes| T[Select another room type]
+T --> G
+S --> |no| U[Thank you message]
+U --> O
+```
