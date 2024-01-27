@@ -1,12 +1,9 @@
-
-
-
-
-
-
+CODE DESCRIPTION
+To meet the needs of a newly established hotel, we will develop an automated room reservation system in C++. This system will assign rooms for each night in the hotel, which has a total of 150 rooms. The program will present users with a menu to choose the room type they want: Ocean View Suite, Poolside Villa, or Garden View Room.
 
 PSEUDOCODE
 
+     step 1 start
      step 1. Declare and initialize constants for the total number of rooms and room number ranges for each room type.
      
      step 2. Declare variables for name, gender, age, reservation code, room number, and room type.
